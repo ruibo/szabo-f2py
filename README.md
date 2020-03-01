@@ -1,2 +1,2 @@
 # szabo-f2py
-f2py wrapper for szabo.f
+The book "Modern Quantum Chemistry" by Szabo and Ostlund included an example fortran code to perform a simple Hartree-Fock calcuation on HeH+. The code for the example, szabo.f, was obtained from ccl.net.  
