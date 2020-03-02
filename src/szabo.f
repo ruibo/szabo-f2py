@@ -15,18 +15,18 @@ C
 C Cleaned up and debugged again by Andrew Long (2012) 
 C                   and Daniele (kalium) Dondi (2013)
 C*********************************************************************
-
-      IMPLICIT DOUBLE PRECISION(A-H,O-Z)
-      IOP=2
-      N=3
-      R=1.4632D0
-      ZETA1=2.0925D0
-      ZETA2=1.24D0
-      ZA=2.0D0
-      ZB=1.0D0
-      CALL HFCALC(IOP,N,R,ZETA1,ZETA2,ZA,ZB)
-      END
-
+C
+C      IMPLICIT DOUBLE PRECISION(A-H,O-Z)
+C      IOP=2
+C      N=3
+C      R=1.4632D0
+C      ZETA1=2.0925D0
+C      ZETA2=1.24D0
+C      ZA=2.0D0
+C      ZB=1.0D0
+C      CALL HFCALC(IOP,N,R,ZETA1,ZETA2,ZA,ZB)
+C      END
+C
 C*********************************************************************
       SUBROUTINE HFCALC(IOP,N,R,ZETA1,ZETA2,ZA,ZB)
 C
@@ -309,7 +309,7 @@ C TRANSPOSE OF TRANSFORMATION MATRIX
       XT(1,2)=X(2,1)
       XT(2,1)=X(1,2)
       XT(2,2)=X(2,2)
-C MATRIX OF TWO-ELEùCTRON INTEGRALS
+C MATRIX OF TWO-ELECTRON INTEGRALS
       TT(1,1,1,1)=V1111
       TT(2,1,1,1)=V2111
       TT(1,2,1,1)=V2111
